@@ -39,8 +39,8 @@ export default function Directory() {
 
   return (
     <div className='directory-menu'>
-      {section.map(({ title, id, imageUrl, size }) => (
-        <Menu title={title} key={id} imageUrl={imageUrl} size={size} />
+      {section.map(({ id, ...sectionProps }) => (
+        <Menu key={id} {...sectionProps} />
       ))}
     </div>
   );
