@@ -1,4 +1,9 @@
 body {
-  font-family: 'Ibarra Real Nova';
-  padding: 20px 80px;
+  font-family: "Ibarra Real Nova";
+  padding: 20px 60px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
