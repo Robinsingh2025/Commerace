@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-import FormInput from "../custom-button/custom-button";
-import "./sign-in.scss";
+import FormInput from "../form-input/form-input.component";
+import CustomButton from "../custom-button/custom-button.component";
 
-import CustomButton from "../custom-button/custom-button.js";
+import "./sign-in.styles.scss";
 
 function SignIn() {
   const [login, setLogin] = useState({

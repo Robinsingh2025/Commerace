@@ -1,8 +1,7 @@
 .header {
   height: 70px;
-  widows: 100%;
+  width: 100%;
   display: flex;
-
   justify-content: space-between;
   margin-bottom: 25px;
 
@@ -21,7 +20,6 @@
 
     .option {
       padding: 10px 15px;
-      text-decoration: none;
     }
   }
 }
